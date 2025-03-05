@@ -65,7 +65,7 @@ How to Test:
 Option C: React: Todo List Application
 -----------------------
 This is a Todo List Application using React and Api in java SpringBoot (Option A)
-The React project's name is Task-list-main
+The React project's name is **Task-list-main**
 How to test:
 1) Run the Java project of the Option A first.
 2) Open Task-list-main in Visual Studio Code.
