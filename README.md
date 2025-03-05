@@ -4,7 +4,7 @@ SWT301-Group6-Lab2
 # Option A: SpringBoot + Option C: React
 Clone the repository:
    ```bash
-   git clone https://github.com/doggyB12/Todo.git
+   git clone https://github.com/doggyB12/Lab2.git
    ```
    or dowloand file and extract.
   
@@ -90,6 +90,7 @@ How to test:
 Contributors
 -------------------
 Tất Tinh Bảo: Option A
+
 Nguyễn Thành Đạt: Option C
 
 
