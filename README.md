@@ -11,7 +11,7 @@ Clone the repository:
 Option A: Spring Boot: Todo API
 -----------------------
 This is a simple Todo API built with Java and Spring Boot. The application allows users to create, read, update, and delete (CRUD) todo items.
-
+This project file is **Todo-main**.
 How to Test:
 
 1) This assignment uses MySql Workbench:
@@ -52,6 +52,7 @@ How to Test:
                    └── service
                        └── TodoServiceTest.java
    ```
+   To run the Unit Test, in /src/test/java, right click to com.project.Todo -> Run 'Test in 'com.project.Todo''
 6) Test Coverage
    To check the test coverage in IntelliJ IDEA:
    
@@ -61,8 +62,30 @@ How to Test:
    
    After the tests run, you can view the coverage report.
 
-Option B: React: Todo List Applcation
+Option C: React: Todo List Application
 -----------------------
+This is a Todo List Application using React and Api in java SpringBoot (Option A)
+The React project's name is Task-list-main
+How to test:
+1) Run the Java project of the Option A first.
+2) Open Task-list-main in Visual Studio Code.
+3) Open cmd and input this command to run the React project:
+   ```
+   npm run dev
+   ```
+4) Unit test file:
+   Test file is in
+   ```
+   \src\Test
+   ```
+   To run test file, in cmd input:
+   ```
+   npm run test:cov
+   ```
+5) Open terminal and type:
+   ```
+   npm run test:cov
+   ```
 
 Contributors
 -------------------
