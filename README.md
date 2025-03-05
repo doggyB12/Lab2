@@ -64,4 +64,9 @@ How to Test:
 Option B: React: Todo List Applcation
 -----------------------
 
+Contributors
+-------------------
+Tất Tinh Bảo: Option A
+Nguyễn Thành Đạt: Option C
+
 
