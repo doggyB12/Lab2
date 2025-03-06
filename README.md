@@ -71,6 +71,7 @@ How to test:
 2) Open Task-list-main in Visual Studio Code.
 3) Open cmd and input this command to run the React project:
    ```
+   npm i jest
    npm i vite 
    npm run dev
    ```
@@ -91,7 +92,7 @@ How to test:
 Video Links
 -------------------
 ```
-https://drive.google.com/file/d/1ao_Zp6KZLEIuPVEi3lGiz9FrLmqzLkMp/view?usp=sharing
+[Click here to view the video](https://drive.google.com/file/d/1ao_Zp6KZLEIuPVEi3lGiz9FrLmqzLkMp/view?usp=sharing)
 ```
 
 
