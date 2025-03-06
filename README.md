@@ -92,7 +92,6 @@ How to test:
 Video Links
 -------------------
 ```
-[Click here to view the video](https://drive.google.com/file/d/1ao_Zp6KZLEIuPVEi3lGiz9FrLmqzLkMp/view?usp=sharing)
+https://drive.google.com/file/d/1ao_Zp6KZLEIuPVEi3lGiz9FrLmqzLkMp/view?usp=sharing
 ```
-
 
