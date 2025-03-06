@@ -88,10 +88,10 @@ How to test:
    npm run test:cov
    ```
 
-Contributors
+Video Links
 -------------------
-Tất Tinh Bảo: Option A
-
-Nguyễn Thành Đạt: Option C
+```
+https://drive.google.com/file/d/1ao_Zp6KZLEIuPVEi3lGiz9FrLmqzLkMp/view?usp=sharing
+```
 
 
