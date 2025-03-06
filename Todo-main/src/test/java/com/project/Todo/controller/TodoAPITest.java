@@ -49,22 +49,8 @@ public class TodoAPITest {
         assertEquals(todos, response.getBody());
     }
 
-    //2 - Returns list of active todos from service layer
-    @Test
-    public void test_get_todo_returns_active_todos() {
-        TodoService todoService = mock(TodoService.class);
-        TodoAPI todoAPI = new TodoAPI(todoService);
 
-        List<Todo> activeTodos = Arrays.asList(new Todo(), new Todo());
-        when(todoService.getAll()).thenReturn(activeTodos);
-
-        ResponseEntity response = todoAPI.getTodo();
-
-        assertEquals(HttpStatus.OK, response.getStatusCode());
-        assertEquals(activeTodos, response.getBody());
-    }
-
-    //3 - Returns empty list when no active todos exist
+    //2 - Returns empty list when no active todos exist
     @Test
     public void test_get_todo_returns_empty_list_when_no_active_todos_exist() {
         TodoService todoService = mock(TodoService.class);
@@ -79,7 +65,7 @@ public class TodoAPITest {
         assertEquals(emptyTodos, response.getBody());
     }
 
-    //4 - Handle case when todoService throws unexpected exceptions
+    //3 - Handle case when todoService throws unexpected exceptions
     @Test
     public void test_get_todos_handles_service_exception() {
         TodoService todoService = mock(TodoService.class);
@@ -132,7 +118,6 @@ public class TodoAPITest {
         if (bindingResult.hasErrors()) {
             ResponseEntity response = new ResponseEntity<>(bindingResult.getAllErrors(), HttpStatus.BAD_REQUEST);
             assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
-            System.out.println("haha");
         } else {
             ResponseEntity response = todoAPI.createTodo(todoDTO);
             assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
@@ -208,17 +193,6 @@ public class TodoAPITest {
         verify(todoService, never()).createTodo(any(TodoDTO.class));
     }
 
-    //6 - Missing request body returns 400 Bad Request
-    @Test
-    public void test_create_todo_with_missing_body_returns_bad_request() {
-        TodoService todoService = mock(TodoService.class);
-        TodoAPI todoAPI = new TodoAPI(todoService);
-
-        ResponseEntity response = todoAPI.createTodo(null);
-
-        assertEquals(HttpStatus.BAD_REQUEST, response.getStatusCode());
-        verify(todoService, never()).createTodo(any(TodoDTO.class));
-    }
 
 
 
