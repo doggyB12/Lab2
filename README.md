@@ -71,6 +71,7 @@ How to test:
 2) Open Task-list-main in Visual Studio Code.
 3) Open cmd and input this command to run the React project:
    ```
+   npm i vite 
    npm run dev
    ```
 4) Unit test file:
