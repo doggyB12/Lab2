@@ -33,7 +33,7 @@ public class TodoAPITest {
     @Autowired
     private Validator validator;
 
-    //---------------Get-----4 testcases--------------
+    //---------------Get-----3 testcases--------------
     //1 - Returns HTTP 200 OK status when successfully retrieving todos - HappyCase
     @Test
     public void test_get_todo_returns_ok_status() {
@@ -80,7 +80,7 @@ public class TodoAPITest {
 
 
 
-    //---------------Create-----6 testcases--------------
+    //---------------Create-----5 testcases--------------
     //1 - HappyCase
     @Test
     public void test_create_todo_success() {
